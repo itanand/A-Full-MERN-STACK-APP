@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
   res.send('Hello to college memoriesAPI');
 })
 
-// const CONNECTION_URL = 'mongodb+srv://anand:Anandm8877@cluster0.cjmeg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
